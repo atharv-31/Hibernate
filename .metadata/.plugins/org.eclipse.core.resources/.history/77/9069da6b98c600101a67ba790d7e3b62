@@ -1,0 +1,12 @@
+package com.dao;
+
+public class Latte implements Cofee{
+
+	@Override
+	public void brew() {
+
+		System.out.print("Expresso");
+		
+	}
+
+}
