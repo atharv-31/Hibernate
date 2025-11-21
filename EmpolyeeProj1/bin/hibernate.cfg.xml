@@ -11,23 +11,21 @@
 
 		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/jpa8081hibernate
 		</property>
-
 		<property name="hibernate.connection.username">root</property>
-
 		<property name="hibernate.connection.password">Atharv@04</property>
 
 
-		<!-- Hibernate Properties -->
-		<property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+		<!-- hibernate Properties -->
+
 		<property name="hibernate.hbm2ddl.auto">update</property>
 		<property name="hibernate.show_sql">true</property>
 		<property name="hibernate.format_sql">true</property>
 
-		<!-- Mapping Resources Prperties -->
 
-		<mapping resources="employee.hbm.xml" />
+		<!-- Mapping Resource Properties -->
+
+		<mapping resource="employee.hbm.xml"/>
 	</session-factory>
-
 
 
 </hibernate-configuration>
