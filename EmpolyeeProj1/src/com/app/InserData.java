@@ -11,8 +11,8 @@ public class InserData {
 		
 		Employee employee=new Employee();
 		
-		employee.setName("Atharv");
-		employee.setSalary(30000);
+		employee.setName("Nikhil");
+		employee.setSalary(40000);
 		
 		Configuration config=new Configuration();
 		
