@@ -5,7 +5,7 @@ public class Latte implements Coffee{
 	@Override
 	public void brew() {
 
-		System.out.print("Expresso");
+		System.out.print("Latte...");
 		
 	}
 
